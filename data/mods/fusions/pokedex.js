@@ -3,7 +3,7 @@
 /**@type {{[k: string]: ModdedTemplateData}} */
 let BattlePokedex = {
 	gumtei: {
-		num: 810,
+		num: -2000,
 		species: "Gumtei",
 		types: ["Normal", "Fire"],
 		genderRatio: {M: 0.875, F: 0.125},
