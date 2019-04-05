@@ -2,7 +2,6 @@
 
 /**@type {{[k: string]: {learnset: {[k: string]: MoveSource[]}}}} */
 let BattleLearnsets = {
-	//Fresh
 	gumtei: {learnset: {
 		attract: ["7M"],
 		bide: ["7L16"],
@@ -108,5 +107,8 @@ let BattleLearnsets = {
 		workup: ["7M"],
 		yawn: ["7L47"],
 		zenheadbutt: ["7T"],
-		},
-},
+		}
+	},
+};
+
+exports.BattleLearnsets = BattleLearnsets;
