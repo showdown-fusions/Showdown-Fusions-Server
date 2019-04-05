@@ -8308,6 +8308,13 @@ let BattleFormatsData = {
 		isNonstandard: "LGPE",
 		tier: "Illegal",
 	},
+	gumtei: {
+		randomBattleMoves: ["extremespeed", "sacredfire", "flareblitz", "uturn", "pursuit", "crunch", "stoneedge"],
+		randomDoubleBattleMoves: ["extremespeed", "sacredfire", "flareblitz", "uturn", "pursuit", "crunch", "stoneedge", "protect", "earthquake"],
+		isNonstandard:"Fusions",
+		tier: "OU",
+		doublesTier: "DOU",
+	},
 	missingno: {
 		randomBattleMoves: ["watergun", "skyattack", "doubleedge", "metronome"],
 		isNonstandard: "Glitch",

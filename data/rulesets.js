@@ -121,6 +121,7 @@ let BattleFormats = {
 			let problems = [];
 			let totalEV = 0;
 			let allowCAP = !!(format && this.getRuleTable(format).has('allowcap'));
+			let allowFusions = !!(format && this.getRuleTable(format).has('allowfusions'));
 
 			if (set.species === set.name) delete set.name;
 			if (template.gen > this.gen) {
@@ -159,7 +160,13 @@ let BattleFormats = {
 			}
 
 			if (!allowCAP || !template.tier.startsWith('CAP')) {
-				if (template.isNonstandard && template.num > -5000) {
+				if (template.isNonstandard && template.num > -2000) {
+					problems.push(set.species + ' does not exist.');
+				}
+			}
+			
+			if (!allowFusions) {
+				if (template.isNonstandard && -1999 > template.num > -5000) {
 					problems.push(set.species + ' does not exist.');
 				}
 			}
@@ -875,6 +882,12 @@ let BattleFormats = {
 		effectType: 'ValidatorRule',
 		name: 'Allow CAP',
 		desc: "Allows the use of Pok&eacute;mon, abilities, moves, and items made by the Create-A-Pok&eacute;mon project",
+		// Implemented in the 'pokemon' ruleset
+	},
+	allowfusions: {
+		effectType: 'ValidatorRule',
+		name: 'Allow Fusions',
+		desc: "Allows the use of fusion Pok&eacute;mon.",
 		// Implemented in the 'pokemon' ruleset
 	},
 	allowtradeback: {
