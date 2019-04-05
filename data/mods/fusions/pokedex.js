@@ -13,6 +13,8 @@ let BattlePokedex = {
 		weightkg: 106.1,
 		color: "Red",
 		eggGroups: ["Field"],
+		tier:"OU",
+		isNonstandard:"Fusions"
 	},
 };
 
