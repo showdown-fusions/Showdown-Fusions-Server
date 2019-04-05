@@ -14,7 +14,7 @@ let BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Field"],
 		tier:"OU",
-		isNonstandard:"Fusions"
+        isNonstandard:"Fusions"
 	},
 };
 
