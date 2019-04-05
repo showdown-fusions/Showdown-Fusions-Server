@@ -6,6 +6,16 @@
 /**@type {(FormatsData | {section: string, column?: number})[]} */
 let Formats = [
 
+	{
+		section: "Pokemon Fusions OU"
+	},
+	{
+		name: "OU + Fusions"
+		desc: `Play with Fusion mons along side the Smogon OU tier.`
+		mod: 'fusions'
+		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
 	// US/UM Singles
 	///////////////////////////////////////////////////////////////////
 	{
