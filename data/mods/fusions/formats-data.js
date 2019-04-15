@@ -43,6 +43,32 @@ let BattleFormatsData = {
 		tier: "(OU)",
 		doublesTier: "(DOU)",
 	},
+	espersian: {
+		randomBattleMoves: ["psychic", "psyshock", "substitute", "shadowball", "calmmind", "morningsun", "dazzlinggleam", "hypervoice", "hiddenpowerfighting", "wish", "taunt", "hypnosis"],
+		randomDoubleBattleMoves: ["psychic", "psyshock", "substitute", "wish", "shadowball", "hiddenpowerfighting", "helpinghand", "protect", "dazzlinggleam", "hypervoice", "taunt", "hypnosis"],
+		eventPokemon: [
+			{"generation": 3, "level": 70, "moves": ["psybeam", "psychup", "psychic", "morningsun"], "pokeball": "pokeball"},
+			{"generation": 5, "level": 10, "gender": "M", "isHidden": true, "moves": ["tailwhip", "tackle", "helpinghand", "sandattack"]},
+			{"generation": 6, "level": 10, "isHidden": false, "moves": ["celebrate", "tailwhip", "sandattack", "confusion"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 50, "gender": "F", "isHidden": true, "moves": ["psychic", "dazzlinggleam", "shadowball", "reflect"], "pokeball": "cherishball"},
+		],
+		eventOnly: false,
+		tier: "OU",
+		doublesTier: "(DOU)",
+	},
+	espersianalola: {
+		randomBattleMoves: ["psychic", "psyshock", "substitute", "morningsun", "nastyplot", "darkpulse", "hiddenpowerfighting", "hypnosis", "taunt"],
+		randomDoubleBattleMoves: ["psychic", "psyshock", "substitute", "wish", "hiddenpowerfighting", "helpinghand", "protect", "nastyplot", "darkpulse", "hypnosis", "snarl", "foulplay", "fakeout", "taunt"],
+		eventPokemon: [
+			{"generation": 3, "level": 70, "moves": ["psybeam", "psychup", "psychic", "morningsun"], "pokeball": "pokeball"},
+			{"generation": 5, "level": 10, "gender": "M", "isHidden": true, "moves": ["tailwhip", "tackle", "helpinghand", "sandattack"]},
+			{"generation": 6, "level": 10, "isHidden": false, "moves": ["celebrate", "tailwhip", "sandattack", "confusion"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 50, "gender": "F", "isHidden": true, "moves": ["psychic", "dazzlinggleam", "shadowball", "reflect"], "pokeball": "cherishball"},
+		],
+		eventOnly: false,
+		tier: "OU",
+		doublesTier: "(DOU)",
+	},
 };
 
 exports.BattleFormatsData = BattleFormatsData;
