@@ -23,7 +23,7 @@ let BattleFormatsData = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-	stakanoirsteel: {
+	stakanoirstl: {
 		randomBattleMoves: ["willowisp", "shadowsneak", "icepunch", "painsplit", "substitute", "earthquake", "focuspunch", "gyroball", "trickroom", "superpower"],
 		randomDoubleBattleMoves: ["willowisp", "shadowsneak", "icepunch", "painsplit", "protect", "earthquake", "helpinghand", "trickroom", "gyroball", "superpower"],
 		eventPokemon: [
@@ -33,7 +33,7 @@ let BattleFormatsData = {
 		tier: "(OU)",
 		doublesTier: "(DOU)",
 	},
-	stakanoirrock: {
+	stakanoirrck: {
 		randomBattleMoves: ["willowisp", "shadowsneak", "painsplit", "substitute", "earthquake", "focuspunch", "stoneedge", "superpower", "stealthrock"],
 		randomDoubleBattleMoves: ["willowisp", "shadowsneak", "painsplit", "protect", "earthquake", "helpinghand", "trickroom", "rockslide", "stoneedge", "superpower", "stealthrock"],
 		eventPokemon: [
@@ -42,6 +42,30 @@ let BattleFormatsData = {
 		eventOnly: false,
 		tier: "(OU)",
 		doublesTier: "(DOU)",
+	},
+	eeveowth: {
+		randomBattleMoves: ["fakeout", "uturn", "bite", "taunt", "return", "hypnosis", "wish", "irontail"],
+		randomDoubleBattleMoves: ["fakeout", "uturn", "nightslash", "taunt", "return", "hypnosis", "feint", "protect", "helpinghand"],
+		eventPokemon: [
+			{"generation": 3, "level": 5, "shiny": 1, "moves": ["scratch", "growl", "petaldance"], "pokeball": "pokeball"},
+			{"generation": 3, "level": 5, "moves": ["scratch", "growl"], "pokeball": "pokeball"},
+			{"generation": 3, "level": 10, "gender": "M", "moves": ["scratch", "growl", "bite"], "pokeball": "pokeball"},
+			{"generation": 3, "level": 22, "moves": ["sing", "slash", "payday", "bite"]},
+			{"generation": 4, "level": 21, "gender": "F", "nature": "Jolly", "abilities": ["pickup"], "moves": ["bite", "fakeout", "furyswipes", "screech"], "pokeball": "cherishball"},
+			{"generation": 4, "level": 10, "gender": "M", "nature": "Jolly", "abilities": ["pickup"], "moves": ["fakeout", "payday", "assist", "scratch"], "pokeball": "cherishball"},
+			{"generation": 5, "level": 15, "gender": "M", "isHidden": false, "abilities": ["pickup"], "moves": ["furyswipes", "sing", "nastyplot", "snatch"], "pokeball": "cherishball"},
+			{"generation": 6, "level": 20, "isHidden": false, "abilities": ["pickup"], "moves": ["happyhour", "screech", "bite", "fakeout"], "pokeball": "cherishball"},
+		],
+		encounters: [
+			{"generation": 1, "level": 10},
+			{"generation": 3, "level": 3, "shiny": false, "gender": "M", "nature": "Naive", "ivs": {"hp": 4, "atk": 5, "def": 4, "spa": 5, "spd": 4, "spe": 4}, "abilities": ["pickup"], "pokeball": "pokeball"},
+		],
+		eventOnly: false,
+		tier: "LC",
+	},
+	eeveowthalola: {
+		eventOnly: false,
+		tier: "LC",
 	},
 	espersian: {
 		randomBattleMoves: ["psychic", "psyshock", "substitute", "shadowball", "calmmind", "morningsun", "dazzlinggleam", "hypervoice", "hiddenpowerfighting", "wish", "taunt", "hypnosis"],
@@ -68,6 +92,58 @@ let BattleFormatsData = {
 		eventOnly: false,
 		tier: "OU",
 		doublesTier: "(DOU)",
+	},
+	diancierckdrk:	{
+		randomBattleMoves: ["reflect", "lightscreen", "stealthrock", "diamondstorm", "powergem", "earthpower", "hammerarm", "knockoff", "earthquake", "fireblast", "flamethrower", "darkpulse", "calmmind"],
+		randomDoubleBattleMoves: ["reflect", "lightscreen", "stealthrock", "diamondstorm", "powergem", "earthpower", "hammerarm", "knockoff", "earthquake", "fireblast", "flamethrower", "darkpulse", "calmmind", "safeguard", "substitute", "protect", "wideguard"],
+		eventPokemon: [
+			{"generation": 6, "level": 50, "perfectIVs": 0, "moves": ["diamondstorm", "reflect", "return", "hammerarm"], "pokeball": "cherishball"},
+			{"generation": 6, "level": 50, "shiny": true, "moves": ["diamondstorm", "hammerarm", "reflect", "return"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 70, "moves": ["thrash", "gastroacid", "heavyslam", "wringout"]},
+			{"generation": 7, "level": 60, "shiny": 1, "moves": ["hammerarm", "thrash", "gastroacid", "heavyslam"]},
+		],
+		eventOnly: true,
+		tier: "OU",
+		doublesTier: "DOU",
+	},
+	diancierckdrg:	{
+		randomBattleMoves: ["reflect", "lightscreen", "stealthrock", "diamondstorm", "powergem", "earthpower", "hammerarm", "outrage", "dragontail", "earthquake", "fireblast", "flamethrower", "dracometeor", "calmmind"],
+		randomDoubleBattleMoves: ["reflect", "lightscreen", "stealthrock", "diamondstorm", "powergem", "earthpower", "hammerarm", "outrage", "dragontail", "earthquake", "fireblast", "flamethrower", "dracometeor", "calmmind", "safeguard", "substitute", "protect", "wideguard"],
+		eventPokemon: [
+			{"generation": 6, "level": 50, "perfectIVs": 0, "moves": ["diamondstorm", "reflect", "return", "hammerarm"], "pokeball": "cherishball"},
+			{"generation": 6, "level": 50, "shiny": true, "moves": ["diamondstorm", "hammerarm", "reflect", "return"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 70, "moves": ["thrash", "gastroacid", "heavyslam", "wringout"]},
+			{"generation": 7, "level": 60, "shiny": 1, "moves": ["hammerarm", "thrash", "gastroacid", "heavyslam"]},
+		],
+		eventOnly: true,
+		tier: "OU",
+		doublesTier: "DOU",
+	},
+	dianciefrydrk:	{
+		randomBattleMoves: ["reflect", "lightscreen", "moonblast", "earthpower", "hammerarm", "knockoff", "earthquake", "fireblast", "flamethrower", "darkpulse", "calmmind", "stoneedge"],
+		randomDoubleBattleMoves: ["reflect", "lightscreen", "moonblast", "dazzlinggleam", "earthpower", "hammerarm", "knockoff", "earthquake", "fireblast", "flamethrower", "darkpulse", "calmmind", "safeguard", "substitute", "protect", "wideguard"],
+		eventPokemon: [
+			{"generation": 6, "level": 50, "perfectIVs": 0, "moves": ["moonblast", "reflect", "return", "hammerarm"], "pokeball": "cherishball"},
+			{"generation": 6, "level": 50, "shiny": true, "moves": ["moonblast", "hammerarm", "reflect", "return"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 70, "moves": ["thrash", "gastroacid", "heavyslam", "wringout"]},
+			{"generation": 7, "level": 60, "shiny": 1, "moves": ["hammerarm", "thrash", "gastroacid", "heavyslam"]},
+		],
+		eventOnly: true,
+		tier: "OU",
+		doublesTier: "DOU",
+	},
+	dianciefrydrg:	{
+		randomBattleMoves: ["reflect", "lightscreen", "moonblast", "hammerarm", "outrage", "dragontail", "earthquake", "fireblast", "flamethrower", "dracometeor", "calmmind", "stoneedge"],
+		randomDoubleBattleMoves: ["reflect", "lightscreen", "moonblast", "dazzlinggleam", "earthpower", "hammerarm", "outrage", "dragontail", "earthquake", "fireblast", "flamethrower", "dracometeor", "calmmind", "safeguard", "substitute", "protect", "wideguard"],
+		eventPokemon: [
+			{"generation": 6, "level": 50, "perfectIVs": 0, "moves": ["moonblast", "reflect", "return", "hammerarm"], "pokeball": "cherishball"},
+			{"generation": 6, "level": 50, "shiny": true, "moves": ["moonblast", "hammerarm", "reflect", "return"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 70, "moves": ["thrash", "gastroacid", "heavyslam", "wringout"]},
+			{"generation": 7, "level": 60, "shiny": 1, "moves": ["hammerarm", "thrash", "gastroacid", "heavyslam"]},
+		],
+		eventOnly: true,
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 };
 
